@@ -7,10 +7,16 @@ favorite_numbers = {
 }
 print("Number " +
     favorite_numbers['eric'] +
-    " is the favorite number")
+    " is the favorite number of Eric.")
 print("Number " +
-    favorite_numbers['eric'] +
-    " is the favorite number")
+    favorite_numbers['eliot'] +
+    " is the favorite number of Eliot.")
 print("Number " +
-        favorite_numbers['eric'] +
-        " is the favorite number")
+    favorite_numbers['sarah'] +
+    " is the favorite number of Sarah.")
+print("Number " +
+    favorite_numbers['alice'] +
+    " is the favorite number of Alice.")
+print("Number " +
+    favorite_numbers['james'] +
+    " is the favorite number of James.")
