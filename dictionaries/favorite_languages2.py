@@ -15,6 +15,10 @@ do_not_were_interviewed = ['sam', 'jason', 'patek', 'eliot']
 for name in set(favorite_languages.keys()):
     print(name.title())
     if name in were_interviewed:
-        print("Thank you " + name.title() + " for taking our survey!")
+        print("Thank you " +
+        name.title() +
+        " for taking our survey!")
     if name in do_not_were_interviewed:
-        print("Dear " + name.title() + ", please go, our survey!")
+        print("Dear " +
+        name.title() +
+        ", please go, our survey!")
