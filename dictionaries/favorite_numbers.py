@@ -1,22 +1,12 @@
 favorite_numbers = {
-'eric': 2,
-'eliot': 1,
-'sarah': 23,
-'alice': 3,
-'james': 5,
-}
-print("Number " +
-    favorite_numbers['eric'] +
-    " is the favorite number of Eric.")
-print("Number " +
-    favorite_numbers['eliot'] +
-    " is the favorite number of Eliot.")
-print("Number " +
-    favorite_numbers['sarah'] +
-    " is the favorite number of Sarah.")
-print("Number " +
-    favorite_numbers['alice'] +
-    " is the favorite number of Alice.")
-print("Number " +
-    favorite_numbers['james'] +
-    " is the favorite number of James.")
+    'eric': [2, 55]
+    'eliot': [1, 4, 89]
+    'sarah': [23, 1, 13, 5]
+    'alice': [3]
+    'james': [5, 25]
+    }
+
+for name, numbers in set(favorite_numbers.items()):
+    print("\n" + name.title() + "'s favorite numbers are: ")
+    for number in numbers:
+        print("\t" + number.title())    

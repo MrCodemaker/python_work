@@ -133,10 +133,10 @@ for language in set(favorite_languages.values()):
 # or
 
 favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python',
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
     }
 
 for name, languages in favorite_languages.items():
