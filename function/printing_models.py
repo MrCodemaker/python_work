@@ -51,3 +51,11 @@ show_completed_models(completed_models)
 на все вызовы функции. Такой подход намного эффективнее независимой правки кода
 в нескольких местах программы.
 """
+
+# С использованием команды import.
+
+import printing_functions as p_f
+"""Модулю printing_functions присваивается псевдоним p_f"""
+"""Выполняются функции print_models и show_completed_models"""
+p_f.print_models(unprinted_designs, completed_models)
+p_f.show_completed_models(completed_models)
