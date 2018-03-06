@@ -16,3 +16,4 @@ class Restaurant():
 
 restaurant = Restaurant('meat and wine', 'italian')
 print(restaurant.describe_restaurant())
+print(open_restaurant())
